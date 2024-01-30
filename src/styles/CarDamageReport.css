@@ -1,0 +1,92 @@
+.car-damage-container {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    background-image: url('./images/car.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+  }
+  
+  .position-selectors {
+    position: absolute;
+  }
+  
+  .position-dot {
+    position: absolute;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 50%;
+    width: 25px; 
+    height: 25px; 
+    cursor: pointer;
+  }
+  .position-dot.active-dot {
+    background-color: #ff5900;
+  }
+
+  .position-dot.A1 {
+    top: 40px;
+    left: 100px;
+  }
+
+  .position-dot.A2 {
+    top: 40px;
+    left: 200px;
+  }
+
+  .position-dot.A3 {
+    top: 40px;
+    left: 300px;
+  }
+
+  .position-dot.A4 {
+    top: 40px;
+    left: 400px;
+  }
+
+  .position-dot.B1 {
+    top: 130px;
+    left: 10px;
+  }
+
+  .position-dot.B2 {
+    top: 130px;
+    left: 100px;
+  }
+
+  .position-dot.B3 {
+    top: 130px;
+    left: 260px;
+  }
+
+  .position-dot.B4 {
+    top: 130px;
+    left: 425px;
+  }
+  
+  .position-dot.B5 {
+    top: 130px;
+    left: 460px;
+  }
+
+  .position-dot.C1 {
+    top: 240px;
+    left: 100px;
+  }
+
+  .position-dot.C2 {
+    top: 240px;
+    left: 200px;
+  }
+
+  .position-dot.C3 {
+    top: 240px;
+    left: 300px;
+  }
+
+  .position-dot.C4 {
+    top: 240px;
+    left: 400px;
+  }
+    
